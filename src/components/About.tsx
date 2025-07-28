@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import './About.css';
 
 const aboutText = `長年にわたり企業のエンジニアとして、さまざまな開発現場に携わってきました。

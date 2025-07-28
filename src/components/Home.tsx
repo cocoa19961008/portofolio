@@ -1,6 +1,5 @@
-import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaDownload } from 'react-icons/fa';
+import { FaGithub} from 'react-icons/fa';
 import './Section.css';
 
 const Home = () => {
@@ -12,7 +11,7 @@ const Home = () => {
         <h1>岡田 海翔</h1>
         <TypeAnimation
           sequence={[
-            '私はシニア AI 開発者です。',
+            '私はシニア AI 開発者です',
             1000,
             '',
             500,
