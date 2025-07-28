@@ -41,7 +41,7 @@ const About = () => {
                                 className="wave-letter"
                                 style={{
                                     display: char === ' ' ? 'inline-block' : undefined,
-                                    ['--wave-index' as any]: idx
+                                    ['--wave-index' as string]: idx
                                 }}
                             >
                                 {char === ' ' ? '\u00A0' : char}
