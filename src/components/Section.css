@@ -126,6 +126,32 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 0.5rem;
+  gap: 20px;
+}
+
+.education-logo-container {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.education-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.education-logo:hover {
+  transform: scale(1.05);
+}
+
+.education-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .education-university {
@@ -145,6 +171,7 @@
   color: #888;
   text-align: right;
   min-width: 180px;
+  flex-shrink: 0;
 }
 
 .education-description {

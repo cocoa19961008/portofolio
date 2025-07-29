@@ -8,7 +8,7 @@ const Home = () => {
       <div className="background-image" />
       <div className="black-overlay" />
       <div className="home-content">
-        <h1>岡田 海翔</h1>
+        <h1>田中 陽輝</h1>
         <TypeAnimation
           sequence={[
             '私はシニア AI 開発者です',

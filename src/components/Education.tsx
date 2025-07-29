@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import './Section.css';
+import universityLogo from '../assets/university-of-aizu-logo.png';
 
 const Education = () => {
   const cardRef = useRef(null);
@@ -32,7 +33,14 @@ const Education = () => {
         ref={cardRef}
       >
         <div className="education-card-header">
-          <div>
+          <div className="education-logo-container">
+            <img 
+              src={universityLogo} 
+              alt="University of Aizu Logo" 
+              className="education-logo"
+            />
+          </div>
+          <div className="education-info">
             <div className="education-university">会津大学（福島県）</div>
             <div className="education-degree">
               コンピュータ理工学士（工学）

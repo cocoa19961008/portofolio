@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>© 2020 岡田 海翔. All rights reserved.</p>
+            <p>© 2020 田中 陽輝. All rights reserved.</p>
         </footer>
     )
 }
